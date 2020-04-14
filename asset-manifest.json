@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-redux-persist-sauce-example/static/css/main.527bc0f3.chunk.css",
-    "main.js": "/react-redux-persist-sauce-example/static/js/main.437757bf.chunk.js",
-    "main.js.map": "/react-redux-persist-sauce-example/static/js/main.437757bf.chunk.js.map",
-    "runtime-main.js": "/react-redux-persist-sauce-example/static/js/runtime-main.53f5df45.js",
-    "runtime-main.js.map": "/react-redux-persist-sauce-example/static/js/runtime-main.53f5df45.js.map",
-    "static/js/2.ab20d632.chunk.js": "/react-redux-persist-sauce-example/static/js/2.ab20d632.chunk.js",
-    "static/js/2.ab20d632.chunk.js.map": "/react-redux-persist-sauce-example/static/js/2.ab20d632.chunk.js.map",
-    "index.html": "/react-redux-persist-sauce-example/index.html",
-    "precache-manifest.e8b65ec5d450fce0d0e55ea72706d01d.js": "/react-redux-persist-sauce-example/precache-manifest.e8b65ec5d450fce0d0e55ea72706d01d.js",
-    "service-worker.js": "/react-redux-persist-sauce-example/service-worker.js",
-    "static/css/main.527bc0f3.chunk.css.map": "/react-redux-persist-sauce-example/static/css/main.527bc0f3.chunk.css.map",
-    "static/js/2.ab20d632.chunk.js.LICENSE.txt": "/react-redux-persist-sauce-example/static/js/2.ab20d632.chunk.js.LICENSE.txt",
-    "static/media/delete.svg": "/react-redux-persist-sauce-example/static/media/delete.ed18eff6.svg"
+    "main.css": "/static/css/main.527bc0f3.chunk.css",
+    "main.js": "/static/js/main.e8f25e0e.chunk.js",
+    "main.js.map": "/static/js/main.e8f25e0e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ad1aebd6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ad1aebd6.js.map",
+    "static/js/2.3a9db875.chunk.js": "/static/js/2.3a9db875.chunk.js",
+    "static/js/2.3a9db875.chunk.js.map": "/static/js/2.3a9db875.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.20c11d1cfe3dc958e96244a54c9d15be.js": "/precache-manifest.20c11d1cfe3dc958e96244a54c9d15be.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.527bc0f3.chunk.css.map": "/static/css/main.527bc0f3.chunk.css.map",
+    "static/js/2.3a9db875.chunk.js.LICENSE.txt": "/static/js/2.3a9db875.chunk.js.LICENSE.txt",
+    "static/media/delete.svg": "/static/media/delete.ed18eff6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.53f5df45.js",
-    "static/js/2.ab20d632.chunk.js",
+    "static/js/runtime-main.ad1aebd6.js",
+    "static/js/2.3a9db875.chunk.js",
     "static/css/main.527bc0f3.chunk.css",
-    "static/js/main.437757bf.chunk.js"
+    "static/js/main.e8f25e0e.chunk.js"
   ]
 }
