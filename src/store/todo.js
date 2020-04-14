@@ -1,5 +1,7 @@
 import { createActions } from "reduxsauce";
 import { createReducer } from "reduxsauce";
+import produce from "immer";
+
 const INITIAL = { todo: [] };
 
 export const { Types, Creators } = createActions({
@@ -8,14 +10,19 @@ export const { Types, Creators } = createActions({
 });
 
 const addTodo = (state = INITIAL, action) => {
-  return { todo: [...state.todo, action.text] };
+  const nextState = produce(state, (draftState) => {
+    draftState.todo.push(action.text);
+  });
+  return nextState;
 };
 
 const removeTodo = (state = INITIAL, action) => {
-  const todo = state.todo.filter((value, index) => {
-    return index !== action.id;
+  const nextState = produce(state, (draftState) => {
+    draftState.todo = draftState.todo.filter((value, index) => {
+      return index !== action.id;
+    });
   });
-  return { ...state, todo };
+  return nextState;
 };
 
 export const HANDLE = {
