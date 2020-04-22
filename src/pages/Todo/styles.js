@@ -29,7 +29,7 @@ export const Container = styled.div`
           max-width: 80%;
         }
         img {
-          width: 22px;
+          width: 25px;
           cursor: pointer;
         }
       }

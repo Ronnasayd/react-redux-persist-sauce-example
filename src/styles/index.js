@@ -1,3 +1,7 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+
 *,
 html,
 body {
@@ -8,8 +12,13 @@ body {
   text-decoration: none;
   list-style: none;
   outline: none;
+  
 }
 
-body {
+body,html,#root {
   background: #9d60b8;
+  height:100%;
 }
+
+
+`;
